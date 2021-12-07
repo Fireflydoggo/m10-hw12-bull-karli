@@ -11,22 +11,22 @@ class Car {
   honk() {
       console.log('BEEP BEEP!')
   }
+  
+}
 
+function performMaintenance() {
+  console.log('maintenance complete')
 }
 
 setTimeout(function() {
-    console.log('maintenance complete')
-}, 3000)
+  console.log('maintenance complete')
+}, 3000);
 
-
-
-
+//Create a variable named mySweetRide and assign it a car created with your class using the following arguments:
 var mySweetRide = new Car('Pontiac', 'Fiero', 1988) 
-
-
-
 
 //call mySweetRide's honk method once
 mySweetRide.honk()
 //call mySweetRide's performMaintenance method once
 mySweetRide.performMaintenance()
+
